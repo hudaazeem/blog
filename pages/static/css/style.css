@@ -1,0 +1,35 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.site-banner {
+    position: sticky;
+    top: 0;
+    padding: 0.75rem 0;
+    background: #edc974;
+    border-bottom: 1px solid rgba(187, 123, 246, 0.2);
+    color: #000000;
+    margin-bottom: 30px;
+}
+.site-title {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-shadow: 0 1px 6px #6e5c34;
+    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    
+}
+
+.site-title a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.page-content {padding-top: 1rem;}
